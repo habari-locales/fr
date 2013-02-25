@@ -1,22 +1,22 @@
-# French translation for habari
-# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
-# This file is distributed under the same license as the habari package.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2008.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: habari\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2012-11-04 00:00+0000\n"
-"PO-Revision-Date: 2012-02-11 20:21+0000\n"
-"Last-Translator: Pierre Rudloff <contact@rudloff.pro>\n"
-"Language-Team: French <fr@li.org>\n"
+"Project-Id-Version: Habari\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-12-02 00:00+0000\n"
+"PO-Revision-Date: 2013-02-25 17:18+0000\n"
+"Last-Translator: Matt Read <matt@mattread.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Launchpad-Export-Date: 2012-11-05 04:33+0000\n"
-"X-Generator: Launchpad (build 16232)\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: classes/vocabulary.php:222
 #, php-format
@@ -28,7 +28,14 @@ msgstr "Nouveau vocabulaire %1$s (%2$s)"
 msgid "Vocabulary %1$s (%2$s) deleted."
 msgstr "Vocabulaire %1$s (%2$s) supprimé."
 
-#: classes/vocabulary.php:840
+#: classes/vocabulary.php:842
+#, php-format
+msgid ""
+"Not all posts tagged \"%1$s\" could be reassigned to \"%2$s\". They have "
+"been left alone."
+msgstr ""
+
+#: classes/vocabulary.php:848
 #, php-format
 msgid "Term %1$s in the %2$s vocabulary has been renamed to %3$s."
 msgid_plural "Terms %1$s in the %2$s vocabulary have been renamed to %3$s."
@@ -39,9 +46,7 @@ msgstr[1] ""
 #, php-format
 msgid ""
 "Could not find a rule matching the following names: %s. File: %s (line %s)"
-msgstr ""
-"Impossible de trouver une règle correspondant aux noms suivants: %s. "
-"Fichier: %s (ligne %s)"
+msgstr "Impossible de trouver une règle correspondant aux noms suivants: %s. Fichier: %s (ligne %s)"
 
 #: classes/eventlog.php:373 handlers/adminlogshandler.php:267
 msgid "Logs purged."
@@ -75,8 +80,8 @@ msgstr ""
 #: classes/plugins.php:504
 #, php-format
 msgid ""
-"The class \"%s\" is not a Plugin, but was queued to load as a plugin. It may "
-"not currently be active."
+"The class \"%s\" is not a Plugin, but was queued to load as a plugin. It may"
+" not currently be active."
 msgstr ""
 
 #: classes/plugins.php:592
@@ -94,9 +99,7 @@ msgstr "L'extension \"%s\" a été désactivée"
 msgid ""
 "Attempted to load the plugin file \"%s\", but it failed with syntax errors. "
 "<div class=\"reveal\">%s</div>"
-msgstr ""
-"La tentative de chargement du fichier \"%s\" a échoué, des erreurs de "
-"syntaxe sont en cause. <div class=\"reveal\">%s</div>"
+msgstr "La tentative de chargement du fichier \"%s\" a échoué, des erreurs de syntaxe sont en cause. <div class=\"reveal\">%s</div>"
 
 #: classes/memcachecache.php:36 classes/memcachecache.php:37
 msgid "The Memcache PHP module is not loaded - the cache is disabled."
@@ -116,8 +119,7 @@ msgstr "erreur d'analyse. character invalide pour cet encodage"
 
 #: classes/xmlrpcexception.php:43
 msgid "server error. invalid xml-rpc. not conforming to spec."
-msgstr ""
-"erreur du serveur. xml-rpc invalide. ne conforme pas aux spécifications."
+msgstr "erreur du serveur. xml-rpc invalide. ne conforme pas aux spécifications."
 
 #: classes/xmlrpcexception.php:45
 msgid "server error. requested method not found"
@@ -151,9 +153,7 @@ msgstr "Le URI source n'existe pas."
 msgid ""
 "The source URI does not contain a link to the target URI, and so cannot be "
 "used as a source."
-msgstr ""
-"Le URI source ne contient pas un lien vers le URI cible, ainsi il ne peut "
-"pas être utilisé comme source."
+msgstr "Le URI source ne contient pas un lien vers le URI cible, ainsi il ne peut pas être utilisé comme source."
 
 #: classes/xmlrpcexception.php:63
 msgid "The specified target URI does not exist."
@@ -175,9 +175,7 @@ msgstr "Accès refusé."
 msgid ""
 "The server could not communicate with an upstream server, or received an "
 "error from an upstream server, and therefore could not complete the request."
-msgstr ""
-"Le serveur ne peut pas communiquer avec un serveur en amont, ou recevoir une "
-"erreur d'un serveur en amont, et ne peut donc pas compléter la requête."
+msgstr "Le serveur ne peut pas communiquer avec un serveur en amont, ou recevoir une erreur d'un serveur en amont, et ne peut donc pas compléter la requête."
 
 #: classes/xmlrpcexception.php:75
 msgid "This XMLRPC server only accepts POST requests."
@@ -192,16 +190,15 @@ msgstr "Exception XMLRPC inconnue."
 msgid ""
 "Bitmask constructor expects either no arguments or an array as a first "
 "argument"
-msgstr ""
-"Le constructeur de la classe Bitmask ne requiert aucun argument ou une liste "
-"comme premier argument"
+msgstr "Le constructeur de la classe Bitmask ne requiert aucun argument ou une liste comme premier argument"
 
 #. @locale Habari tried to create a new Bitmask with too many flags
 #: classes/bitmask.php:36
 msgid "Bitmask can have a maximum of PHP_INT_MAX >> 1 flags"
 msgstr ""
 
-#. @locale Habari tried to create a new Bitmask object with invalid values in the second argument
+#. @locale Habari tried to create a new Bitmask object with invalid values in
+#. the second argument
 #: classes/bitmask.php:56
 msgid ""
 "Bitmask constructor second argument must either be an integer within the "
@@ -250,7 +247,8 @@ msgstr "complet"
 msgid "none"
 msgstr "aucun"
 
-#. @locale Signifies the plugin or theme is missing needed information to check for an update
+#. @locale Signifies the plugin or theme is missing needed information to
+#. check for an update
 #: classes/update.php:41
 #, php-format
 msgid ""
@@ -272,8 +270,7 @@ msgid "Updates check CronJob failed!"
 msgstr ""
 
 #: classes/update.php:284
-msgid ""
-"Perform a single check for plugin updates, the plugin set has changed."
+msgid "Perform a single check for plugin updates, the plugin set has changed."
 msgstr ""
 
 #: classes/term.php:151
@@ -309,17 +306,12 @@ msgid ""
 "The cache directory '%s' is not writable - the cache is disabled. The user, "
 "or group, which your web server is running as, needs to have read, write, "
 "and execute permissions on this directory."
-msgstr ""
-"Le répertoire de cache '%s' n'a pas les droits en écriture - le cache est "
-"désactivé. L'utilisateur, ou le groupe, qui utilise ce serveur web doit "
-"avoir les droits en lecture, écriture et exécution pour ce répertoire."
+msgstr "Le répertoire de cache '%s' n'a pas les droits en écriture - le cache est désactivé. L'utilisateur, ou le groupe, qui utilise ce serveur web doit avoir les droits en lecture, écriture et exécution pour ce répertoire."
 
 #: classes/filecache.php:40
 #, php-format
 msgid "The cache directory '%s' is not writable - the cache is disabled."
-msgstr ""
-"Il fut impossible d'écrire dans le dossier cache '%s', ainsi, le cache a été "
-"désactivé."
+msgstr "Il fut impossible d'écrire dans le dossier cache '%s', ainsi, le cache a été désactivé."
 
 #: classes/logentry.php:30
 msgid "any"
@@ -367,9 +359,7 @@ msgstr "Réponse XML invalide."
 
 #: classes/remoterequest.php:29 classes/curlrequestprocessor.php:186
 msgid "Unable to get response body. Request did not yet execute."
-msgstr ""
-"Impossible de récupérer le corps de la réponse. La requête n'a pas été "
-"exécutée."
+msgstr "Impossible de récupérer le corps de la réponse. La requête n'a pas été exécutée."
 
 #: classes/remoterequest.php:38 classes/curlrequestprocessor.php:195
 msgid "Unable to get response headers. Request did not yet execute."
@@ -444,8 +434,10 @@ msgstr ""
 msgid "spam"
 msgstr ""
 
-#: classes/pluggable.php:248 classes/plugin.php:62
-#: handlers/adminpluginshandler.php:57 handlers/adminpluginshandler.php:107
+#. @locale Displayed as an icon indicating there is help text available for a
+#. plugin.
+#: classes/pluggable.php:248 classes/plugin.php:63
+#: handlers/adminpluginshandler.php:58 handlers/adminpluginshandler.php:109
 msgid "?"
 msgstr "?"
 
@@ -463,14 +455,13 @@ msgstr "Impossible d'enregistrer le protocole HiEngine"
 msgid ""
 "Whoops! 404. The page you were trying to access is not really there. Please "
 "try again."
-msgstr ""
-"Oups! 404. La page que vous avez demandé n'existe pas. Merci de réessayer."
+msgstr "Oups! 404. La page que vous avez demandé n'existe pas. Merci de réessayer."
 
 #: classes/theme.php:673
 #, php-format
 msgid ""
-"Content could not be displayed. One of the following templates - %s - has to "
-"be present in the active theme."
+"Content could not be displayed. One of the following templates - %s - has to"
+" be present in the active theme."
 msgstr ""
 
 #: classes/theme.php:831
@@ -558,8 +549,16 @@ msgstr ""
 msgid "CronJob %s is not scheduled to run again and is being deleted."
 msgstr ""
 
-#: classes/format.php:259 classes/format.php:294 themes/charcoal/footer.php:12
-#: admin/plugin.php:42 admin/themes.php:15 admin/themes.php:123
+#. @locale The default string used between the last two items in a series
+#. (one, two, three *and* four).
+#. @locale The default string used between the last two items in a series of
+#. tags (one, two, three *and* four).
+#. @locale The string used between the last two items in the list of authors
+#. of a plugin on the admin page (one, two, three *and* four).
+#. @locale The string used between the last two items in the list of authors
+#. of a theme on the admin page (one, two, three *and* four).
+#: classes/format.php:262 classes/format.php:298 admin/plugin.php:43
+#: admin/themes.php:16 admin/themes.php:125
 msgid " and "
 msgstr " et "
 
@@ -574,7 +573,7 @@ msgstr "Permissions aux billets de type \"%s\""
 
 #: classes/post.php:274 classes/post.php:951 classes/acl.php:780
 #: classes/acl.php:781 classes/acl.php:782 classes/acl.php:784
-#: handlers/installhandler.php:1732
+#: handlers/installhandler.php:1734
 msgid "Content"
 msgstr "Contenu"
 
@@ -615,7 +614,7 @@ msgid "Tags, separated by, commas"
 msgstr "Mots-clés, séparés par une virgule."
 
 #: classes/post.php:979 handlers/admincommentshandler.php:73
-#: admin/themes.php:31
+#: admin/themes.php:32
 msgid "Settings"
 msgstr "Paramètres"
 
@@ -646,7 +645,7 @@ msgstr "Adresse du contenu"
 #: classes/post.php:1019 plugins/undelete/undelete.plugin.php:181
 #: plugins/flickrsilo/flickrsilo.plugin.php:876
 #: handlers/adminthemeshandler.php:154 themes/charcoal/theme.php:66
-#: admin/themes.php:89
+#: admin/themes.php:90
 msgid "Save"
 msgstr "Sauvegader"
 
@@ -672,15 +671,11 @@ msgstr ""
 msgid ""
 "The post %1$s was updated since you made changes.  Please review those "
 "changes before overwriting them."
-msgstr ""
-"L'article %1$s a été mis à jour depuis vos dernières modifications.  "
-"Veuillez vérifier ces modifications avant d'enregistrer."
+msgstr "L'article %1$s a été mis à jour depuis vos dernières modifications.  Veuillez vérifier ces modifications avant d'enregistrer."
 
 #: classes/post.php:1102
 msgid "A post slug cannot be empty. Keeping old slug."
-msgstr ""
-"L'identifiant d'un billet ne peut être vide.  L'ancien identifiant a été "
-"conservé."
+msgstr "L'identifiant d'un billet ne peut être vide.  L'ancien identifiant a été conservé."
 
 #: classes/post.php:1157
 #, php-format
@@ -784,10 +779,7 @@ msgstr "Non implémenté: instance"
 msgid ""
 "Panic! No database connection class appears to be found for the connection "
 "string specified. Please check config.php"
-msgstr ""
-"Alerte! Aucune classe de connexion à la base de données ne semble "
-"correspondre à la chaîne de connexion fournie. Merci de vérifier le fichier "
-"config.php"
+msgstr "Alerte! Aucune classe de connexion à la base de données ne semble correspondre à la chaîne de connexion fournie. Merci de vérifier le fichier config.php"
 
 #: classes/user.php:171
 #, php-format
@@ -807,9 +799,7 @@ msgstr "Identification réussie pour \"%s\""
 #: classes/user.php:296
 #, php-format
 msgid "Login attempt (via authentication plugin) for non-existent user %s"
-msgstr ""
-"Tentative de connexion (via l'extension d'authentification) de l'utilisateur "
-"inexistant \"%s\""
+msgstr "Tentative de connexion (via l'extension d'authentification) de l'utilisateur inexistant \"%s\""
 
 #: classes/user.php:297 classes/user.php:309 classes/user.php:327
 msgid "Invalid username/password"
@@ -883,8 +873,7 @@ msgstr "extension xmlrpc non trouvée"
 
 #: classes/themes.php:55
 msgid "This theme is a legacy theme that is not compatible with Habari "
-msgstr ""
-"Ce thème est un thème historique qui n'est plus compatible avec Habari "
+msgstr "Ce thème est un thème historique qui n'est plus compatible avec Habari "
 
 #: classes/themes.php:127
 msgid "There is no valid theme currently installed."
@@ -1030,8 +1019,7 @@ msgstr "Permission supprimée: %s"
 #: classes/acl.php:612
 #, php-format
 msgid "Group %1$s: Access to %2$s changed to %3$s"
-msgstr ""
-"Groupe \"%1$s\": L'accès à la ressource \"%2$s\" a été changé à \"%3$s\""
+msgstr "Groupe \"%1$s\": L'accès à la ressource \"%2$s\" a été changé à \"%3$s\""
 
 #: classes/acl.php:702
 #, php-format
@@ -1078,7 +1066,7 @@ msgstr "Utiliser la fonction d'importation"
 msgid "Add, remove, and edit users"
 msgstr "Ajouter, supprimer et modifier des utilisateurs"
 
-#: classes/acl.php:774 handlers/installhandler.php:1627
+#: classes/acl.php:774 handlers/installhandler.php:1629
 msgid "Edit own profile"
 msgstr "Modifier son profil"
 
@@ -1090,11 +1078,11 @@ msgstr "Gérer les groupes et leurs permissions"
 msgid "Manage logs"
 msgstr "Gérer les journaux"
 
-#: classes/acl.php:777 handlers/installhandler.php:1632
+#: classes/acl.php:777 handlers/installhandler.php:1634
 msgid "Manage dashboard modules"
 msgstr "Gérer les modules du tableau de bord"
 
-#: classes/acl.php:780 handlers/installhandler.php:1578
+#: classes/acl.php:780 handlers/installhandler.php:1580
 msgid "Permissions on one's own posts"
 msgstr "Permissions sur ses propres billets"
 
@@ -1102,7 +1090,7 @@ msgstr "Permissions sur ses propres billets"
 msgid "Permissions to all posts"
 msgstr "Permissions pour tous les billets"
 
-#: classes/acl.php:782 handlers/installhandler.php:1732
+#: classes/acl.php:782 handlers/installhandler.php:1734
 msgid "Permissions to other users' unpublished posts"
 msgstr ""
 
@@ -1118,8 +1106,8 @@ msgstr "admin"
 msgid "anonymous"
 msgstr "anonyme"
 
-#: classes/acl.php:841 classes/acl.php:843 handlers/installhandler.php:1589
-#: handlers/installhandler.php:1591
+#: classes/acl.php:841 classes/acl.php:843 handlers/installhandler.php:1591
+#: handlers/installhandler.php:1593
 msgid "authenticated"
 msgstr "authentifié"
 
@@ -1170,7 +1158,8 @@ msgstr "Avertissement"
 msgid "Parse Error"
 msgstr "Erreur d'analyse"
 
-#. @locale PHP encountered something at runtime that could be an error or intended
+#. @locale PHP encountered something at runtime that could be an error or
+#. intended
 #: classes/error.php:122
 msgid "Notice"
 msgstr "Avis"
@@ -1195,37 +1184,44 @@ msgstr "Erreur de Compilation"
 msgid "Compile Warning"
 msgstr "Avertissement de Compilation"
 
-#. @locale A fatal error generated by Habari or an addon. Code execution is stopped.
+#. @locale A fatal error generated by Habari or an addon. Code execution is
+#. stopped.
 #: classes/error.php:132
 msgid "User Error"
 msgstr "Erreur Utilisateur"
 
-#. @locale A non-fatal error generated by Habari or an addon. Code execution is not stopped.
+#. @locale A non-fatal error generated by Habari or an addon. Code execution
+#. is not stopped.
 #: classes/error.php:134
 msgid "User Warning"
 msgstr "Avertissement Utilisateur"
 
-#. @locale PHP encountered something generated by Habari or an addon at runtime that could be an error or intended
+#. @locale PHP encountered something generated by Habari or an addon at
+#. runtime that could be an error or intended
 #: classes/error.php:136
 msgid "User Notice"
 msgstr "Avis Utilisateur"
 
-#. @locale A suggestion from PHP that the code may need updated for interoperability or forward compatibility
+#. @locale A suggestion from PHP that the code may need updated for
+#. interoperability or forward compatibility
 #: classes/error.php:138
 msgid "Strict Notice"
 msgstr "Avis Strict"
 
-#. @locale A fatal PHP error at runtime. An error handler may be able to work around it. If not, code execution stops.
+#. @locale A fatal PHP error at runtime. An error handler may be able to work
+#. around it. If not, code execution stops.
 #: classes/error.php:140
 msgid "Recoverable Error"
 msgstr "Erreur Récupérable"
 
-#. @locale A notification from PHP that the code is outdated and may not work in the future
+#. @locale A notification from PHP that the code is outdated and may not work
+#. in the future
 #: classes/error.php:144
 msgid "Deprecated violation"
 msgstr "Violation obsolète"
 
-#. @locale A notification that the code is outdated and Habari may not work with it in the future
+#. @locale A notification that the code is outdated and Habari may not work
+#. with it in the future
 #: classes/error.php:146
 msgid "User deprecated violation"
 msgstr "Violation d'utilisateur obsolète"
@@ -1242,9 +1238,7 @@ msgstr[1] ""
 msgid ""
 "%s line %d:\n"
 "  %s(%s)\n"
-msgstr ""
-"%s ligne %d:\n"
-"  %s(%s)\n"
+msgstr "%s ligne %d:\n  %s(%s)\n"
 
 #: classes/curlrequestprocessor.php:93
 msgid "CURL Error. Unable to create temporary file name."
@@ -1259,262 +1253,262 @@ msgstr "Erreur cURL. Impossible d'ouvrir le fichier temporaire."
 msgid "CURL Error %1$d: %2$s"
 msgstr "Erreur cURL %1$d: %2$s"
 
-#: classes/habaridatetime.php:222
+#: classes/DateTime.php:222
 msgid "January"
 msgstr ""
 
-#: classes/habaridatetime.php:223
+#: classes/DateTime.php:223
 msgid "February"
 msgstr ""
 
-#: classes/habaridatetime.php:224
+#: classes/DateTime.php:224
 msgid "March"
 msgstr ""
 
-#: classes/habaridatetime.php:225
+#: classes/DateTime.php:225
 msgid "April"
 msgstr ""
 
-#: classes/habaridatetime.php:226 classes/habaridatetime.php:238
+#: classes/DateTime.php:226 classes/DateTime.php:238
 msgid "May"
 msgstr ""
 
-#: classes/habaridatetime.php:227
+#: classes/DateTime.php:227
 msgid "June"
 msgstr ""
 
-#: classes/habaridatetime.php:228
+#: classes/DateTime.php:228
 msgid "July"
 msgstr ""
 
-#: classes/habaridatetime.php:229
+#: classes/DateTime.php:229
 msgid "August"
 msgstr ""
 
-#: classes/habaridatetime.php:230
+#: classes/DateTime.php:230
 msgid "September"
 msgstr ""
 
-#: classes/habaridatetime.php:231
+#: classes/DateTime.php:231
 msgid "October"
 msgstr ""
 
-#: classes/habaridatetime.php:232
+#: classes/DateTime.php:232
 msgid "November"
 msgstr ""
 
-#: classes/habaridatetime.php:233
+#: classes/DateTime.php:233
 msgid "December"
 msgstr ""
 
-#: classes/habaridatetime.php:234
+#: classes/DateTime.php:234
 msgid "Jan"
 msgstr ""
 
-#: classes/habaridatetime.php:235
+#: classes/DateTime.php:235
 msgid "Feb"
 msgstr ""
 
-#: classes/habaridatetime.php:236
+#: classes/DateTime.php:236
 msgid "Mar"
 msgstr ""
 
-#: classes/habaridatetime.php:237
+#: classes/DateTime.php:237
 msgid "Apr"
 msgstr ""
 
-#: classes/habaridatetime.php:239
+#: classes/DateTime.php:239
 msgid "Jun"
 msgstr ""
 
-#: classes/habaridatetime.php:240
+#: classes/DateTime.php:240
 msgid "Jul"
 msgstr ""
 
-#: classes/habaridatetime.php:241
+#: classes/DateTime.php:241
 msgid "Aug"
 msgstr ""
 
-#: classes/habaridatetime.php:242
+#: classes/DateTime.php:242
 msgid "Sep"
 msgstr ""
 
-#: classes/habaridatetime.php:243
+#: classes/DateTime.php:243
 msgid "Oct"
 msgstr ""
 
-#: classes/habaridatetime.php:244
+#: classes/DateTime.php:244
 msgid "Nov"
 msgstr ""
 
-#: classes/habaridatetime.php:245
+#: classes/DateTime.php:245
 msgid "Dec"
 msgstr ""
 
-#: classes/habaridatetime.php:246
+#: classes/DateTime.php:246
 msgid "Sunday"
 msgstr ""
 
-#: classes/habaridatetime.php:247
+#: classes/DateTime.php:247
 msgid "Monday"
 msgstr ""
 
-#: classes/habaridatetime.php:248
+#: classes/DateTime.php:248
 msgid "Tuesday"
 msgstr ""
 
-#: classes/habaridatetime.php:249
+#: classes/DateTime.php:249
 msgid "Wednesday"
 msgstr ""
 
-#: classes/habaridatetime.php:250
+#: classes/DateTime.php:250
 msgid "Thursday"
 msgstr ""
 
-#: classes/habaridatetime.php:251
+#: classes/DateTime.php:251
 msgid "Friday"
 msgstr ""
 
-#: classes/habaridatetime.php:252
+#: classes/DateTime.php:252
 msgid "Saturday"
 msgstr ""
 
-#: classes/habaridatetime.php:253
+#: classes/DateTime.php:253
 msgid "Sun"
 msgstr ""
 
-#: classes/habaridatetime.php:254
+#: classes/DateTime.php:254
 msgid "Mon"
 msgstr ""
 
-#: classes/habaridatetime.php:255
+#: classes/DateTime.php:255
 msgid "Tue"
 msgstr ""
 
-#: classes/habaridatetime.php:256
+#: classes/DateTime.php:256
 msgid "Wed"
 msgstr ""
 
-#: classes/habaridatetime.php:257
+#: classes/DateTime.php:257
 msgid "Thu"
 msgstr ""
 
-#: classes/habaridatetime.php:258
+#: classes/DateTime.php:258
 msgid "Fri"
 msgstr ""
 
-#: classes/habaridatetime.php:259
+#: classes/DateTime.php:259
 msgid "Sat"
 msgstr ""
 
-#: classes/habaridatetime.php:260
+#: classes/DateTime.php:260
 msgid "am"
 msgstr ""
 
-#: classes/habaridatetime.php:261
+#: classes/DateTime.php:261
 msgid "pm"
 msgstr ""
 
-#: classes/habaridatetime.php:262
+#: classes/DateTime.php:262
 msgid "AM"
 msgstr ""
 
-#: classes/habaridatetime.php:263
+#: classes/DateTime.php:263
 msgid "PM"
 msgstr ""
 
-#: classes/habaridatetime.php:474 admin/dashboard.php:11
+#: classes/DateTime.php:474 admin/dashboard.php:11
 msgid "year"
 msgid_plural "years"
 msgstr[0] "année"
 msgstr[1] "années"
 
-#: classes/habaridatetime.php:478
+#: classes/DateTime.php:478
 msgid "month"
 msgid_plural "months"
 msgstr[0] "mois"
 msgstr[1] "mois"
 
-#: classes/habaridatetime.php:482
+#: classes/DateTime.php:482
 msgid "week"
 msgid_plural "weeks"
 msgstr[0] "semaine"
 msgstr[1] "semaines"
 
-#: classes/habaridatetime.php:486
+#: classes/DateTime.php:486
 msgid "day"
 msgid_plural "days"
 msgstr[0] "jour"
 msgstr[1] "jours"
 
-#: classes/habaridatetime.php:490
+#: classes/DateTime.php:490
 msgid "hour"
 msgid_plural "hours"
 msgstr[0] "heure"
 msgstr[1] "heures"
 
-#: classes/habaridatetime.php:494
+#: classes/DateTime.php:494
 msgid "minute"
 msgid_plural "minutes"
 msgstr[0] "minute"
 msgstr[1] "minutes"
 
-#: classes/habaridatetime.php:498
+#: classes/DateTime.php:498
 msgid "second"
 msgid_plural "seconds"
 msgstr[0] "seconde"
 msgstr[1] "secondes"
 
-#: classes/habaridatetime.php:509
+#: classes/DateTime.php:509
 #, php-format
 msgid "%s from now"
 msgstr ""
 
-#: classes/habaridatetime.php:512
+#: classes/DateTime.php:512
 #, php-format
 msgid "%s ago"
 msgstr "Il y a %s"
 
-#: classes/habaridatetime.php:531
+#: classes/DateTime.php:531
 msgid "just now"
 msgstr "à l'instant"
 
-#: classes/habaridatetime.php:535
+#: classes/DateTime.php:535
 #, php-format
 msgid "%d minute ago"
 msgid_plural "%d minutes ago"
 msgstr[0] "Il y a moins d'une minute"
 msgstr[1] "Il y a %d minutes"
 
-#: classes/habaridatetime.php:539
+#: classes/DateTime.php:539
 #, php-format
 msgid "%d hour ago"
 msgid_plural "%d hours ago"
 msgstr[0] "Il y a moins d'une heure"
 msgstr[1] "Il y a %d heures"
 
-#: classes/habaridatetime.php:543
+#: classes/DateTime.php:543
 #, php-format
 msgid "yesterday"
 msgid_plural "%d days ago"
 msgstr[0] "hier"
 msgstr[1] "Il y a %d jours"
 
-#: classes/habaridatetime.php:547
+#: classes/DateTime.php:547
 #, php-format
 msgid "last week"
 msgid_plural "%d weeks ago"
 msgstr[0] "La semaine dernière"
 msgstr[1] "Il y a %d semaines."
 
-#: classes/habaridatetime.php:551
+#: classes/DateTime.php:551
 #, php-format
 msgid "last month"
 msgid_plural "%d months ago"
 msgstr[0] "Le mois dernier"
 msgstr[1] "Il y a %d mois"
 
-#: classes/habaridatetime.php:555
+#: classes/DateTime.php:555
 #, php-format
 msgid "last year"
 msgid_plural "%d years ago"
@@ -1584,9 +1578,7 @@ msgstr "Déclaration de modèle pour le contenu effacé :"
 msgid ""
 "Pressing this button will permanently delete all posts from the virtual "
 "trash can. You cannot undo this."
-msgstr ""
-"Presser ce bouton supprimera définitivement tous les articles de votre "
-"corbeille virtuelle. Cette manipulation est irréversible."
+msgstr "Presser ce bouton supprimera définitivement tous les articles de votre corbeille virtuelle. Cette manipulation est irréversible."
 
 #: plugins/undelete/undelete.plugin.php:189
 msgid "Delete All"
@@ -1597,44 +1589,44 @@ msgstr "Supprimer Tout"
 msgid "Permanently deleted %d posts"
 msgstr "%d billets supprimés définitivement"
 
-#: plugins/pingback/pingback.plugin.php:272
+#: plugins/pingback/pingback.plugin.php:274
 #, php-format
 msgid ""
 "Unable to retrieve target, can't detect pingback endpoint. (Source: %1$s | "
 "Target: %2$s)"
 msgstr ""
 
-#: plugins/pingback/pingback.plugin.php:295
+#: plugins/pingback/pingback.plugin.php:297
 #, php-format
 msgid "Invalid Pingback endpoint - %1$s (Source: %2$s | Target: %3$s)"
 msgstr ""
 
-#: plugins/pingback/pingback.plugin.php:300
+#: plugins/pingback/pingback.plugin.php:302
 #, php-format
 msgid "Pingback error: %1$s - %2$s (Source: %3$s | Target: %4$s)"
 msgstr ""
 
-#: plugins/pingback/pingback.plugin.php:371
+#: plugins/pingback/pingback.plugin.php:373
 #, php-format
 msgid "Sent pingbacks for \"%1$s\", target: %2$s"
 msgstr "Pingbacks envoyés pour \"%1$s\", destinataire: %2$s"
 
-#: plugins/pingback/pingback.plugin.php:383
+#: plugins/pingback/pingback.plugin.php:385
 #: handlers/adminoptionshandler.php:49
 msgid "Publishing"
 msgstr "Publication"
 
-#: plugins/pingback/pingback.plugin.php:384
+#: plugins/pingback/pingback.plugin.php:386
 msgid "Send Pingbacks to Links"
 msgstr "Envoyer des Pingbacks aux liens"
 
-#: plugins/pingback/pingback.plugin.php:410
-#: plugins/pingback/pingback.plugin.php:416
+#: plugins/pingback/pingback.plugin.php:412
+#: plugins/pingback/pingback.plugin.php:418
 #, php-format
 msgid "%d Pingbacks"
 msgstr "%d pings reçus"
 
-#: plugins/pingback/pingback.plugin.php:413
+#: plugins/pingback/pingback.plugin.php:415
 #, php-format
 msgid "%d Pingback"
 msgstr "%d ping reçu"
@@ -1684,38 +1676,29 @@ msgid ""
 msgstr ""
 
 #: plugins/flickrsilo/flickrsilo.plugin.php:817
-#: plugins/flickrsilo/flickrsilo.plugin.php:864
-msgid "Do you want to "
-msgstr "Voulez-vous "
-
-#: plugins/flickrsilo/flickrsilo.plugin.php:817
-msgid "revoke authorization"
-msgstr "Révoquer l'autorisation"
+#, php-format
+msgid "Do you want to <a href=\"%1$s\">revoke authorization</a>?"
+msgstr ""
 
 #: plugins/flickrsilo/flickrsilo.plugin.php:824
-msgid "To use this plugin, you must "
-msgstr "Pour utiliser ce plugin, vous devez "
-
-#: plugins/flickrsilo/flickrsilo.plugin.php:824
-msgid "authorize Habari to have access to your Flickr account"
-msgstr "autoriser Habari à accéder à votre compte Flickr"
-
-#: plugins/flickrsilo/flickrsilo.plugin.php:825
-msgid "When you have completed the authorization on Flickr, return here and "
+#, php-format
+msgid ""
+"To use this plugin, you must <a href=\"%1$s\">authorized Habari to have "
+"access to your Flickr account</a>."
 msgstr ""
 
 #: plugins/flickrsilo/flickrsilo.plugin.php:825
-msgid "confirm that the authorization was successful"
+#, php-format
+msgid ""
+"When you have completed the authorization on Flickr, return here and <a "
+"href=\"%1$s\">confirm that the authorization was successful</a>."
 msgstr ""
 
 #: plugins/flickrsilo/flickrsilo.plugin.php:839
+#, php-format
 msgid ""
 "Either you have already authorized Habari to access your flickr account, or "
-"you have not yet done so.  Please "
-msgstr ""
-
-#: plugins/flickrsilo/flickrsilo.plugin.php:839
-msgid "try again"
+"you have not yet done so.  Please <a href=\"%1$s\">try again</a>."
 msgstr ""
 
 #: plugins/flickrsilo/flickrsilo.plugin.php:845
@@ -1729,6 +1712,10 @@ msgstr ""
 #: plugins/flickrsilo/flickrsilo.plugin.php:863
 msgid "The Flickr Silo Plugin authorization has been deleted."
 msgstr ""
+
+#: plugins/flickrsilo/flickrsilo.plugin.php:864
+msgid "Do you want to "
+msgstr "Voulez-vous "
 
 #: plugins/flickrsilo/flickrsilo.plugin.php:864
 msgid "re-authorize this plugin"
@@ -1788,39 +1775,27 @@ msgstr "Rechercher des photos"
 
 #: plugins/spamchecker/spamchecker.plugin.php:40
 msgid "Commenters with numeric names are spammy."
-msgstr ""
-"Les commentaires dont le nom de l'auteur ne contient que des chiffres sont "
-"perçus comme des pourriels"
+msgstr "Les commentaires dont le nom de l'auteur ne contient que des chiffres sont perçus comme des pourriels"
 
 #: plugins/spamchecker/spamchecker.plugin.php:49
 msgid "Comments that are only numeric are spammy."
-msgstr ""
-"Les commentaires ne contenant que des chiffres sont perçus comme des "
-"pourriels."
+msgstr "Les commentaires ne contenant que des chiffres sont perçus comme des pourriels."
 
 #: plugins/spamchecker/spamchecker.plugin.php:55
 msgid "Comments that are only whitespace characters are spammy."
-msgstr ""
-"Les commentaires constitués uniquement d'espaces sont perçus comme des "
-"pourriels."
+msgstr "Les commentaires constitués uniquement d'espaces sont perçus comme des pourriels."
 
 #: plugins/spamchecker/spamchecker.plugin.php:61
 msgid "Comments that are only \"array\" are spammy."
-msgstr ""
-"Les commentaires ne contenant que la mention \"array\" sont perçus comme des "
-"pourriels."
+msgstr "Les commentaires ne contenant que la mention \"array\" sont perçus comme des pourriels."
 
 #: plugins/spamchecker/spamchecker.plugin.php:67
 msgid "Comments that consist of only the commenters name are spammy."
-msgstr ""
-"Les commentaires constitués uniquement du nom du commentateur sont perçus "
-"comme des pourriels."
+msgstr "Les commentaires constitués uniquement du nom du commentateur sont perçus comme des pourriels."
 
 #: plugins/spamchecker/spamchecker.plugin.php:74
 msgid "Comments that start with strong text are spammy."
-msgstr ""
-"Les commentaires débutants par du texte en caractères gras sont perçus comme "
-"des pourriels."
+msgstr "Les commentaires débutants par du texte en caractères gras sont perçus comme des pourriels."
 
 #: plugins/spamchecker/spamchecker.plugin.php:80
 msgid "There is a 3 URL limit in comments."
@@ -1828,8 +1803,7 @@ msgstr "Il y a une limite de trois URL dans un commentaire."
 
 #: plugins/spamchecker/spamchecker.plugin.php:86
 msgid "There is a 3 URL-encoded character limit in comments."
-msgstr ""
-"Il y a une limite de trois charactères URL encodés dans un commentaire."
+msgstr "Il y a une limite de trois charactères URL encodés dans un commentaire."
 
 #: plugins/spamchecker/spamchecker.plugin.php:100
 msgid "We do not accept BBCode here."
@@ -1837,8 +1811,7 @@ msgstr "Le BBCode n'est pas permis."
 
 #: plugins/spamchecker/spamchecker.plugin.php:108
 msgid "Too much text that is a link compared to that which is not."
-msgstr ""
-"Il y a trop de texte sous forme d'hyperlien par rapport au texte régulier."
+msgstr "Il y a trop de texte sous forme d'hyperlien par rapport au texte régulier."
 
 #: plugins/spamchecker/spamchecker.plugin.php:117
 #, php-format
@@ -1861,9 +1834,7 @@ msgstr "Base de données WordPress"
 msgid ""
 "Could not connect to the WordPress database using the values supplied. "
 "Please correct them and try again."
-msgstr ""
-"Impossible de se connecter à la base de données Wordpress en utilisant les "
-"valeurs soumises. Veuillez les vérifier et essayez de nouveau."
+msgstr "Impossible de se connecter à la base de données Wordpress en utilisant les valeurs soumises. Veuillez les vérifier et essayez de nouveau."
 
 #: plugins/wpimport/wpimport.plugin.php:109
 msgid "Habari will attempt to import from a WordPress database."
@@ -1934,9 +1905,7 @@ msgstr "Impossible d'importer depuis \"%s\""
 #: plugins/wpimport/wpimport.plugin.php:369
 #: plugins/wpimport/wpimport.plugin.php:593
 msgid "Failed to connect using the given database connection details."
-msgstr ""
-"Impossible de se connecter en utilisant les informations relatives à la base "
-"de données."
+msgstr "Impossible de se connecter en utilisant les informations relatives à la base de données."
 
 #: plugins/wpimport/wpimport.plugin.php:273
 msgid "Importing Users&hellip;"
@@ -1959,9 +1928,7 @@ msgstr "Nouvel utilisateur %1$s créé. Son ID était %2$d."
 msgid ""
 "There was an error importing user %s. See the EventLog for the error "
 "message. "
-msgstr ""
-"Une erreur est survenue lors de l'import de l'utilisateur %s. L'erreur a été "
-"consignée dans le Journal d'Evènements. "
+msgstr "Une erreur est survenue lors de l'import de l'utilisateur %s. L'erreur a été consignée dans le Journal d'Evènements. "
 
 #: plugins/wpimport/wpimport.plugin.php:327
 #: plugins/wpimport/wpimport.plugin.php:532
@@ -1977,7 +1944,8 @@ msgstr "Importation des articles %1$d - %2$d de %3$d."
 #: plugins/wpimport/wpimport.plugin.php:530
 #, php-format
 msgid ""
-"There was an error importing post %s. See the EventLog for the error message."
+"There was an error importing post %s. See the EventLog for the error "
+"message."
 msgstr ""
 
 #: plugins/wpimport/wpimport.plugin.php:609
@@ -2056,12 +2024,14 @@ msgid_plural "%1$d comments"
 msgstr[0] "%1$d commentaire"
 msgstr[1] "%1$d commentaires"
 
-#. @locale Time formats according to http://php.net/manual/en/function.date.php
+#. @locale Time formats according to
+#. http://php.net/manual/en/function.date.php
 #: plugins/coredashmodules/dashboard.block.latest_comments.php:15
 msgid "g:ia"
 msgstr ""
 
-#. @locale Date formats according to http://php.net/manual/en/function.date.php
+#. @locale Date formats according to
+#. http://php.net/manual/en/function.date.php
 #: plugins/coredashmodules/dashboard.block.latest_comments.php:16
 #: plugins/coredashmodules/dashboard.block.latest_entries.php:7
 msgid "F jS, Y"
@@ -2073,12 +2043,14 @@ msgstr ""
 msgid "Posted at %1$s on %2$s"
 msgstr ""
 
-#. @locale Time formats according to http://php.net/manual/en/function.date.php
+#. @locale Time formats according to
+#. http://php.net/manual/en/function.date.php
 #: plugins/coredashmodules/dashboard.block.latest_entries.php:6
 msgid "g:i"
 msgstr ""
 
-#. @locale Date formats according to http://php.net/manual/en/function.date.php
+#. @locale Date formats according to
+#. http://php.net/manual/en/function.date.php
 #: plugins/coredashmodules/dashboard.block.latest_entries.php:8
 #: plugins/coredashmodules/dashboard.block.latest_log_activity.php:5
 msgid "M j"
@@ -2092,7 +2064,7 @@ msgstr "Modifier '%s'"
 
 #: plugins/coredashmodules/dashboard.block.latest_entries.php:9
 #: admin/plugin.php:35 admin/posts_items.php:21 admin/themes.php:9
-#: admin/themes.php:117
+#: admin/themes.php:118
 msgid "by"
 msgstr "par"
 
@@ -2371,18 +2343,13 @@ msgstr ""
 msgid ""
 "Habari Silo activation failed. The web server does not have permission to "
 "create the 'files' directory for the Habari Media Silo."
-msgstr ""
-"L'activation de Habari Silo a échoué. Le serveur ne dispose pas des "
-"permissions d'écriture nécessaires pour ajouter le dossier \"files\" requis "
-"par Habari Media Silo."
+msgstr "L'activation de Habari Silo a échoué. Le serveur ne dispose pas des permissions d'écriture nécessaires pour ajouter le dossier \"files\" requis par Habari Media Silo."
 
 #: plugins/habarisilo/habarisilo.plugin.php:38
 #: plugins/habarisilo/habarisilo.plugin.php:39
 msgid ""
 "Habari Silo activation failed. PHP has not loaded the gd imaging library."
-msgstr ""
-"L'activation de Habari Silo a échoué.  PHP n'a pas été en mesure de charger "
-"la bibliothèque d'imagerie \"gd\"."
+msgstr "L'activation de Habari Silo a échoué.  PHP n'a pas été en mesure de charger la bibliothèque d'imagerie \"gd\"."
 
 #: plugins/habarisilo/habarisilo.plugin.php:49
 msgid "Create media silo directories"
@@ -2489,8 +2456,8 @@ msgstr ""
 #: plugins/habarisilo/habarisilo.plugin.php:534
 msgid ""
 "A PHP extension stopped the file upload. PHP does not provide a way to "
-"ascertain which extension caused the file upload to stop; examining the list "
-"of loaded extensions with phpinfo() may help."
+"ascertain which extension caused the file upload to stop; examining the list"
+" of loaded extensions with phpinfo() may help."
 msgstr ""
 
 #: plugins/habarisilo/habarisilo.plugin.php:536
@@ -2620,8 +2587,7 @@ msgstr "Format de date"
 #: handlers/adminusershandler.php:145 handlers/adminusershandler.php:156
 #, php-format
 msgid "See <a href=\"%s\">php.net/date</a> for details. Current format: %s"
-msgstr ""
-"Voir <a href=\"%s\">php.net/date</a> pour les détails. Format actuel: %s"
+msgstr "Voir <a href=\"%s\">php.net/date</a> pour les détails. Format actuel: %s"
 
 #: handlers/adminusershandler.php:147 handlers/adminoptionshandler.php:93
 msgid "Time Format"
@@ -2803,9 +2769,7 @@ msgstr ""
 #: handlers/adminhandler.php:32 handlers/adminhandler.php:37
 msgid ""
 "We saved the last form you posted. Log back in to continue its submission."
-msgstr ""
-"Les données soumises ont été sauvegardées. Vous devez vous reconnecter pour "
-"poursuivre l'envoi."
+msgstr "Les données soumises ont été sauvegardées. Vous devez vous reconnecter pour poursuivre l'envoi."
 
 #: handlers/adminhandler.php:129
 #, php-format
@@ -2994,8 +2958,8 @@ msgstr "%d groupes supprimés."
 msgid "Only printable characters are allowed."
 msgstr ""
 
-#: handlers/installhandler.php:157 handlers/installhandler.php:1798
-#: handlers/installhandler.php:1869
+#: handlers/installhandler.php:157 handlers/installhandler.php:1818
+#: handlers/installhandler.php:1889
 msgid "Allowed characters are A-Z, a-z and \"_\"."
 msgstr "Les caractères permis sont A-Z, a-z et \"_\"."
 
@@ -3007,8 +2971,8 @@ msgstr ""
 msgid "Habari successfully installed."
 msgstr "Habari a été correctement installé."
 
-#: handlers/installhandler.php:226 handlers/adminpluginshandler.php:92
-#: handlers/adminpluginshandler.php:96 admin/themes.php:149
+#: handlers/installhandler.php:226 handlers/adminpluginshandler.php:93
+#: handlers/adminpluginshandler.php:97 admin/themes.php:151
 msgid "Activate"
 msgstr "Activer"
 
@@ -3026,8 +2990,7 @@ msgstr "L'hôte doit être précisé."
 
 #: handlers/installhandler.php:450 handlers/installhandler.php:661
 msgid "Problem connecting to supplied database credentials"
-msgstr ""
-"Problème de connexion à la base de données avec les informations fournies"
+msgstr "Problème de connexion à la base de données avec les informations fournies"
 
 #: handlers/installhandler.php:466
 #, php-format
@@ -3059,36 +3022,32 @@ msgid "Problem creating first post."
 msgstr "Erreur lors de la création du premier billet."
 
 #: handlers/installhandler.php:555 handlers/installhandler.php:588
-#: handlers/installhandler.php:1813 handlers/installhandler.php:1884
+#: handlers/installhandler.php:1833 handlers/installhandler.php:1904
 msgid "Access denied. Make sure these credentials are valid."
 msgstr "Accès refusé. Veuillez vérifier les identifiants de connexion."
 
 #: handlers/installhandler.php:558 handlers/installhandler.php:591
-#: handlers/installhandler.php:1817 handlers/installhandler.php:1888
+#: handlers/installhandler.php:1837 handlers/installhandler.php:1908
 msgid "That database does not exist."
 msgstr "La base de données n'existe pas."
 
 #: handlers/installhandler.php:561 handlers/installhandler.php:594
-#: handlers/installhandler.php:1821 handlers/installhandler.php:1892
+#: handlers/installhandler.php:1841 handlers/installhandler.php:1912
 msgid "Could not connect to host."
 msgstr "Impossible de se connecter à l'hôte."
 
-#: handlers/installhandler.php:622 handlers/installhandler.php:1940
+#: handlers/installhandler.php:622 handlers/installhandler.php:1960
 #, php-format
 msgid ""
 "Cannot write to %s. The SQLite data file is not writable by the web server."
-msgstr ""
-"Écriture impossible dans %s.  Le serveur n'a pas la permission d'écrire dans "
-"le fichier de données SQLite."
+msgstr "Écriture impossible dans %s.  Le serveur n'a pas la permission d'écrire dans le fichier de données SQLite."
 
-#: handlers/installhandler.php:626 handlers/installhandler.php:1933
+#: handlers/installhandler.php:626 handlers/installhandler.php:1953
 #, php-format
 msgid ""
 "Cannot write to %s directory. SQLite requires that the directory that holds "
 "the DB file be writable by the web server."
-msgstr ""
-"Écriture impossible dans le dossier %s.  Le serveur n'a pas la permission "
-"d'écrire dans le dossier contenant le fichier de données SQLite."
+msgstr "Écriture impossible dans le dossier %s.  Le serveur n'a pas la permission d'écrire dans le dossier contenant le fichier de données SQLite."
 
 #: handlers/installhandler.php:635
 #, php-format
@@ -3096,74 +3055,64 @@ msgid ""
 "Cannot write to %s directory. The SQLite data file does not exist, and it "
 "cannot be created in the specified directory. SQLite requires that the "
 "directory containing the database file be writable by the web server."
-msgstr ""
-"Écriture impossible dans le dossier %s.  Le fichier de données SQLite "
-"n'existe pas et ne peut être créé.  Le serveur doit avoir la permission "
-"d'écrire dans le dossier ciblé pour la création du fichier de données SQLite."
+msgstr "Écriture impossible dans le dossier %s.  Le fichier de données SQLite n'existe pas et ne peut être créé.  Le serveur doit avoir la permission d'écrire dans le dossier ciblé pour la création du fichier de données SQLite."
 
-#: handlers/installhandler.php:784 handlers/installhandler.php:1709
+#: handlers/installhandler.php:786 handlers/installhandler.php:1711
 msgid "Trim the log table"
 msgstr "Purger la table des logs"
 
-#: handlers/installhandler.php:787 handlers/installhandler.php:1717
+#: handlers/installhandler.php:789 handlers/installhandler.php:1719
 msgid "Perform a check for plugin updates."
 msgstr "Rechercher une mise à jour des plugins."
 
-#: handlers/installhandler.php:831
+#: handlers/installhandler.php:833
 msgid ""
 "This site is running <a href=\"http://habariproject.org/\">Habari</a>, a "
 "state-of-the-art publishing platform!  Habari is a community-driven project "
 "created and supported by people from all over the world.  Please visit <a "
-"href=\"http://habariproject.org/\">http://habariproject.org/</a> to find out "
-"more!"
-msgstr ""
-"Ce site est propulsé par <a href=\"http://habariproject.org/\">Habari</a>, "
-"une plate-forme de blog à l'état de l'art! Habari est un projet "
-"communautaire développé par des personnes de partout à travers le monde.  "
-"N'hésitez pas à visiter le site <a "
-"href=\"http://habariproject.org/\">http://habariproject.org</a> pour plus "
-"d'informations!"
+"href=\"http://habariproject.org/\">http://habariproject.org/</a> to find out"
+" more!"
+msgstr "Ce site est propulsé par <a href=\"http://habariproject.org/\">Habari</a>, une plate-forme de blog à l'état de l'art! Habari est un projet communautaire développé par des personnes de partout à travers le monde.  N'hésitez pas à visiter le site <a href=\"http://habariproject.org/\">http://habariproject.org</a> pour plus d'informations!"
 
-#: handlers/installhandler.php:894
+#: handlers/installhandler.php:896
 msgid "currently unsupported."
 msgstr "n'est pas supporté pour le moment."
 
-#: handlers/installhandler.php:1002 handlers/installhandler.php:1031
+#: handlers/installhandler.php:1004 handlers/installhandler.php:1033
 msgid "No admin user found"
 msgstr "Aucun compte administrateur n'a été trouvé"
 
-#: handlers/installhandler.php:1439
+#: handlers/installhandler.php:1441
 msgid "Site Maintenance"
 msgstr "Maintenance du site"
 
-#: handlers/installhandler.php:1440
+#: handlers/installhandler.php:1442
 msgid "Habari is currently being upgraded."
 msgstr "Habari est actuellement en mise à jour."
 
-#: handlers/installhandler.php:1441
+#: handlers/installhandler.php:1443
 msgid "Try again in a little while."
 msgstr "Essayez de nouveau dans un instant."
 
-#: handlers/installhandler.php:1454
+#: handlers/installhandler.php:1456
 msgid "Truncate the log table"
 msgstr "Purger la table des journaux"
 
-#: handlers/installhandler.php:1780 handlers/installhandler.php:1851
+#: handlers/installhandler.php:1800 handlers/installhandler.php:1871
 msgid "The database host field was left empty."
 msgstr "Le champs hôte de la base de données a été laissé vide."
 
-#: handlers/installhandler.php:1786 handlers/installhandler.php:1857
+#: handlers/installhandler.php:1806 handlers/installhandler.php:1877
 msgid "The database name field was left empty."
 msgstr "Le nom de la base de données n'a pas été fourni."
 
-#: handlers/installhandler.php:1792 handlers/installhandler.php:1863
+#: handlers/installhandler.php:1812 handlers/installhandler.php:1883
 msgid "The database user field was left empty."
 msgstr "Le nom d'utilisateur pour la base de données n'a pas été fourni."
 
-#: handlers/installhandler.php:1923
+#: handlers/installhandler.php:1943
 msgid "The database file was left empty."
-msgstr ""
-"Le champ pour le nom du fichier de la base de données a été laissé vide."
+msgstr "Le champ pour le nom du fichier de la base de données a été laissé vide."
 
 #: handlers/adminoptionshandler.php:31
 msgid "Name & Tagline"
@@ -3234,8 +3183,8 @@ msgstr "Langue"
 
 #: handlers/adminoptionshandler.php:104
 msgid ""
-"International language code : This value is set in your config.php file, and "
-"cannot be changed here."
+"International language code : This value is set in your config.php file, and"
+" cannot be changed here."
 msgstr ""
 
 #: handlers/adminoptionshandler.php:104
@@ -3266,9 +3215,7 @@ msgstr "Erreurs détaillées"
 msgid ""
 "Logs error backtraces to the log table's data column. Can drastically "
 "increase log size!"
-msgstr ""
-"Enregistre les informations de traçage pour les erreurs entrées au journal.  "
-"Peut faire augmenter considérablement la taille du journal!"
+msgstr "Enregistre les informations de traçage pour les erreurs entrées au journal.  Peut faire augmenter considérablement la taille du journal!"
 
 #: handlers/adminoptionshandler.php:193
 msgid "Successfully updated options"
@@ -3293,6 +3240,11 @@ msgstr "Module '%s' retiré."
 
 #: handlers/admindashboardhandler.php:130
 msgid "Module Configuration Saved."
+msgstr ""
+
+#: handlers/adminlogshandler.php:146 handlers/adminlogshandler.php:160
+#: handlers/adminlogshandler.php:172 handlers/adminlogshandler.php:185
+msgid "Any"
 msgstr ""
 
 #: handlers/adminlogshandler.php:251
@@ -3452,8 +3404,7 @@ msgstr "[%1s] Demande de réinitialisation de mot de passe pour %2s"
 
 #: handlers/userhandler.php:36
 msgid "A password reset request has been sent to the user."
-msgstr ""
-"Une demande de réinitialisation de mot de passe a été envoyé à l'utilisateur."
+msgstr "Une demande de réinitialisation de mot de passe a été envoyé à l'utilisateur."
 
 #: handlers/userhandler.php:104
 msgid "Bad credentials"
@@ -3465,11 +3416,7 @@ msgid ""
 "Your password for %1$s has been reset.  Your credentials are as follows---\n"
 "Username: %2$s\n"
 "Password: %3$s"
-msgstr ""
-"Votre mot de passe pour %1$s a été réinitialisé. Vos informations de "
-"connexion sont les suivantes---\n"
-"Identifiant: %2$s\n"
-"Mot de passe: %3$s"
+msgstr "Votre mot de passe pour %1$s a été réinitialisé. Vos informations de connexion sont les suivantes---\nIdentifiant: %2$s\nMot de passe: %3$s"
 
 #: handlers/userhandler.php:192
 #, php-format
@@ -3482,9 +3429,7 @@ msgstr "Un nouveau mot de passe a été envoyé à l'utilisateur."
 
 #: handlers/userhandler.php:196
 msgid "There was a problem resetting the password.  It was not reset."
-msgstr ""
-"Un problème a eu lieu lors de la réinitialisation du mot de passe. Celui-ci "
-"est resté inchangé."
+msgstr "Un problème a eu lieu lors de la réinitialisation du mot de passe. Celui-ci est resté inchangé."
 
 #: handlers/userhandler.php:206
 msgid "The supplied password reset token has expired or is invalid."
@@ -3558,22 +3503,22 @@ msgid ""
 "finished: "
 msgstr ""
 
-#: handlers/adminpluginshandler.php:39 handlers/adminpluginshandler.php:78
+#: handlers/adminpluginshandler.php:39 handlers/adminpluginshandler.php:79
 msgid "Deactivate"
 msgstr "Désactiver"
 
-#: handlers/adminpluginshandler.php:127 installer/db_setup.php:11
+#: handlers/adminpluginshandler.php:129 installer/db_setup.php:11
 #: installer/db_setup.php:166 installer/db_setup.php:220
-#: installer/db_setup.php:248 admin/themes.php:21 admin/themes.php:23
+#: installer/db_setup.php:248 admin/themes.php:22 admin/themes.php:24
 msgid "Help"
 msgstr "Aide"
 
-#: handlers/adminpluginshandler.php:219
+#: handlers/adminpluginshandler.php:221
 #, php-format
 msgid "Activated plugin '%s'"
 msgstr "L'extension \"%s\" a été activée avec succès."
 
-#: handlers/adminpluginshandler.php:228
+#: handlers/adminpluginshandler.php:230
 #, php-format
 msgid "Deactivated plugin '%s'"
 msgstr "L'extension \"%s\" a été désactivée avec succès."
@@ -3649,7 +3594,8 @@ msgstr "le"
 msgid "Time of this comment"
 msgstr "Heure de ce commentaire"
 
-#. @locale Date formats according to http://php.net/manual/en/function.date.php
+#. @locale Date formats according to
+#. http://php.net/manual/en/function.date.php
 #: themes/mzingi/commentform.php:47
 msgid "M j, Y h:ia"
 msgstr ""
@@ -3662,7 +3608,8 @@ msgstr "En attente de modération"
 msgid "<li>There are currently no comments.</li>"
 msgstr ""
 
-#. @locale Date formats according to http://php.net/manual/en/function.date.php
+#. @locale Date formats according to
+#. http://php.net/manual/en/function.date.php
 #: themes/mzingi/tag.php:14 themes/mzingi/search.php:14
 #: themes/mzingi/sidebar.php:23
 msgid "F j, Y"
@@ -3867,8 +3814,7 @@ msgstr "Afficher l'image de titre:"
 
 #: themes/charcoal/theme.php:47
 msgid "Check to show the title image, uncheck to display the title text."
-msgstr ""
-"Cocher pour afficher l'image de titre, décocher pour afficher le texte."
+msgstr "Cocher pour afficher l'image de titre, décocher pour afficher le texte."
 
 #: themes/charcoal/theme.php:48
 msgid "Home label:"
@@ -4034,18 +3980,15 @@ msgstr "Votre commentaire est en attente de modération"
 msgid "Be the first to write a comment!"
 msgstr "Soyez le premier à écrire un commentaire!"
 
-#: themes/charcoal/footer.php:8
+#: themes/charcoal/footer.php:10
 #, php-format
 msgid "%1$s is powered by %2$s"
 msgstr "%1$s  est propulsé par %2$s"
 
-#: themes/charcoal/footer.php:12
-msgid "Atom Entries"
-msgstr "Billets (Atom)"
-
-#: themes/charcoal/footer.php:13
-msgid "Atom Comments"
-msgstr "Commentaires (Atom)"
+#: themes/charcoal/footer.php:17
+#, php-format
+msgid "<a href=\"%1$s\">Atom Entries</a> and <a href=\"%2$s\">Atom Comments</a>"
+msgstr ""
 
 #: themes/charcoal/home.php:40
 msgid "No posts published, yet."
@@ -4063,8 +4006,7 @@ msgstr "plus"
 #: schema/sqlite/connection.php:70
 #, php-format
 msgid "Database file \"%s\" must be writable."
-msgstr ""
-"Le fichier de base de données \"%s\" doit avoir les permissions d'écriture."
+msgstr "Le fichier de base de données \"%s\" doit avoir les permissions d'écriture."
 
 #: schema/sqlite/connection.php:197
 msgid "not yet supported on SQLite"
@@ -4090,15 +4032,10 @@ msgstr "%1$s - pilote PDO absent, merci de consulter l'aide"
 #: installer/db_setup.php:31
 msgid ""
 "<strong>Database Type</strong> specifies the type of database to which "
-"Habari will connect.  Changing this setting may affect the other fields that "
-"are available here.  If the database engine that you wanted to use is not in "
-"this list, you may need to install a PDO driver to enable it."
-msgstr ""
-"<strong>Type de base de données</strong> indique le type de base de données "
-"auquel Habari devra se connecter.  Modifier cette option pourrait affecter "
-"les autres champs de configuration présentés ici.  Si le moteur de base de "
-"données que vous souhaitiez utiliser n'est pas dans la liste, il est "
-"possible que vous ayez à installer un pilote PDO pour l'activer."
+"Habari will connect.  Changing this setting may affect the other fields that"
+" are available here.  If the database engine that you wanted to use is not "
+"in this list, you may need to install a PDO driver to enable it."
+msgstr "<strong>Type de base de données</strong> indique le type de base de données auquel Habari devra se connecter.  Modifier cette option pourrait affecter les autres champs de configuration présentés ici.  Si le moteur de base de données que vous souhaitiez utiliser n'est pas dans la liste, il est possible que vous ayez à installer un pilote PDO pour l'activer."
 
 #: installer/db_setup.php:32 installer/db_setup.php:46
 #: installer/db_setup.php:57 installer/db_setup.php:68
@@ -4120,9 +4057,7 @@ msgstr "Paramètres MySQL"
 msgid ""
 "Use the settings below only if you have selected MySQL as your database "
 "engine."
-msgstr ""
-"Saisissez les paramètres ci-dessous si et seulement si vous avez sélectionné "
-"MySQL comme moteur de base de données."
+msgstr "Saisissez les paramètres ci-dessous si et seulement si vous avez sélectionné MySQL comme moteur de base de données."
 
 #: installer/db_setup.php:45
 msgid ""
@@ -4130,12 +4065,7 @@ msgid ""
 "address of the server that runs the MySQL database to which Habari will "
 "connect.  If MySQL is running on your web server, and most of the time it "
 "is, \"localhost\" is usually a good value for this field."
-msgstr ""
-"<strong>Hôte</strong> représente le nom de l'hôte (domaine) ou l'adresse IP "
-"du serveur sur lequel se trouve la base de données MySQL à laquelle Habari "
-"devra se connecter.  Si la base de données se trouve sur le même serveur que "
-"celui sur lequel vous installez Habari, ce qui est généralement le cas, "
-"\"localhost\" devrait être la bonne valeur à entrer dans ce champs."
+msgstr "<strong>Hôte</strong> représente le nom de l'hôte (domaine) ou l'adresse IP du serveur sur lequel se trouve la base de données MySQL à laquelle Habari devra se connecter.  Si la base de données se trouve sur le même serveur que celui sur lequel vous installez Habari, ce qui est généralement le cas, \"localhost\" devrait être la bonne valeur à entrer dans ce champs."
 
 #: installer/db_setup.php:51 installer/db_setup.php:98
 #: installer/db_setup.php:180 admin/users.php:42
@@ -4144,11 +4074,9 @@ msgstr "Identifiant"
 
 #: installer/db_setup.php:56
 msgid ""
-"<strong>Database User</strong> is the username used to connect Habari to the "
-"MySQL database."
-msgstr ""
-"<strong>Identifiant</strong> est le nom d'utilisateur qu'utilisera Habari "
-"pour se connecter à la base de données MySQL."
+"<strong>Database User</strong> is the username used to connect Habari to the"
+" MySQL database."
+msgstr "<strong>Identifiant</strong> est le nom d'utilisateur qu'utilisera Habari pour se connecter à la base de données MySQL."
 
 #: installer/db_setup.php:62 installer/db_setup.php:109
 #: installer/db_setup.php:190 admin/login.php:39 admin/users.php:48
@@ -4159,17 +4087,13 @@ msgstr "Mot de passe"
 msgid ""
 "<strong>Database Password</strong> is the password used to connect the "
 "specified user to the MySQL database."
-msgstr ""
-"<strong>Mot de passe</strong> est le mot de passe qu'utilisera Habari pour "
-"se connecter à la base de données MySQL."
+msgstr "<strong>Mot de passe</strong> est le mot de passe qu'utilisera Habari pour se connecter à la base de données MySQL."
 
 #: installer/db_setup.php:78
 msgid ""
 "<strong>Database Name</strong> is the name of the MySQL database to which "
 "Habari will connect."
-msgstr ""
-"<strong>Nom de la base de données</strong> est le nom de la base de données "
-"MySQL à laquelle Habari devra se connecter."
+msgstr "<strong>Nom de la base de données</strong> est le nom de la base de données MySQL à laquelle Habari devra se connecter."
 
 #: installer/db_setup.php:83
 msgid "PostgreSQL Settings"
@@ -4177,48 +4101,35 @@ msgstr "Paramètres PostgreSQL"
 
 #: installer/db_setup.php:84
 msgid ""
-"Use the settings below only if you have selected PostgreSQL as your database "
-"engine."
-msgstr ""
-"Saisissez les paramètres ci-dessous si et seulement si vous avez sélectionné "
-"PostgreSQL comme moteur de base de données."
+"Use the settings below only if you have selected PostgreSQL as your database"
+" engine."
+msgstr "Saisissez les paramètres ci-dessous si et seulement si vous avez sélectionné PostgreSQL comme moteur de base de données."
 
 #: installer/db_setup.php:92
 msgid ""
 "<strong>Database Host</strong> is the host (domain) name or server IP "
-"address of the server that runs the PostgreSQL database to which Habari will "
-"connect.  If PostgreSQL is running on your web server, and most of the time "
-"it is, \"localhost\" is usually a good value for this field."
-msgstr ""
-"<strong>Hôte</strong> représente le nom de l'hôte (domaine) ou l'adresse IP "
-"du serveur sur lequel se trouve la base de données PostgreSQL à laquelle "
-"Habari devra se connecter.  Si la base de données se trouve sur le même "
-"serveur que celui sur lequel vous installez Habari, ce qui est généralement "
-"le cas, \"localhost\" devrait être la bonne valeur à entrer dans ce champs."
+"address of the server that runs the PostgreSQL database to which Habari will"
+" connect.  If PostgreSQL is running on your web server, and most of the time"
+" it is, \"localhost\" is usually a good value for this field."
+msgstr "<strong>Hôte</strong> représente le nom de l'hôte (domaine) ou l'adresse IP du serveur sur lequel se trouve la base de données PostgreSQL à laquelle Habari devra se connecter.  Si la base de données se trouve sur le même serveur que celui sur lequel vous installez Habari, ce qui est généralement le cas, \"localhost\" devrait être la bonne valeur à entrer dans ce champs."
 
 #: installer/db_setup.php:103
 msgid ""
-"<strong>Database User</strong> is the username used to connect Habari to the "
-"PostgreSQL database."
-msgstr ""
-"<strong>Identifiant</strong> est le nom d'utilisateur qu'utilisera Habari "
-"pour se connecter à la base de données PostgreSQL."
+"<strong>Database User</strong> is the username used to connect Habari to the"
+" PostgreSQL database."
+msgstr "<strong>Identifiant</strong> est le nom d'utilisateur qu'utilisera Habari pour se connecter à la base de données PostgreSQL."
 
 #: installer/db_setup.php:114
 msgid ""
 "<strong>Database Password</strong> is the password used to connect the "
 "specified user to the PostgreSQL database."
-msgstr ""
-"<strong>Mot de passe</strong> est le mot de passe qu'utilisera Habari pour "
-"se connecter à la base de données PostgreSQL."
+msgstr "<strong>Mot de passe</strong> est le mot de passe qu'utilisera Habari pour se connecter à la base de données PostgreSQL."
 
 #: installer/db_setup.php:125
 msgid ""
 "<strong>Database Name</strong> is the name of the PostgreSQL database to "
 "which Habari will connect."
-msgstr ""
-"<strong>Nom de la base de données</strong> est le nom de la base de données "
-"PostgreSQL à laquelle Habari devra se connecter."
+msgstr "<strong>Nom de la base de données</strong> est le nom de la base de données PostgreSQL à laquelle Habari devra se connecter."
 
 #: installer/db_setup.php:130
 msgid "SQLite Settings"
@@ -4228,9 +4139,7 @@ msgstr "Paramètres SQLite"
 msgid ""
 "Use the settings below only if you have selected SQLite as your database "
 "engine."
-msgstr ""
-"Saisissez les paramètres ci-dessous si et seulement si vous avez sélectionné "
-"SQLite comme moteur de base de données."
+msgstr "Saisissez les paramètres ci-dessous si et seulement si vous avez sélectionné SQLite comme moteur de base de données."
 
 #: installer/db_setup.php:134
 msgid "Data file"
@@ -4241,21 +4150,14 @@ msgid ""
 "<strong>Data file</strong> is the SQLite file that will store your Habari "
 "data.  This should be the path to where your data file resides, relative to "
 "the Habari user directory."
-msgstr ""
-"<strong>Fichier de données</strong> est le fichier de stockage des données "
-"pour Habari.  Ceci devrait indiquer le chemin vers lequel votre fichier de "
-"données sera situé (chemin relatif au dossier d'installation d'Habari)."
+msgstr "<strong>Fichier de données</strong> est le fichier de stockage des données pour Habari.  Ceci devrait indiquer le chemin vers lequel votre fichier de données sera situé (chemin relatif au dossier d'installation d'Habari)."
 
 #: installer/db_setup.php:151
 msgid ""
 "<strong>Table Prefix</strong> is a prefix that will be appended to each "
 "table that Habari creates in the database, making it easy to distinguish "
 "those tables in the database from those of other installations."
-msgstr ""
-"<strong>Préfixe des tables</strong> est le préfixe qui sera ajouté devant le "
-"nom de chaque table utilisée par Habari dans la base de données, rendant "
-"ainsi plus facile la distinction de ces tables par rapport à celles "
-"utilisées par d'autres installations."
+msgstr "<strong>Préfixe des tables</strong> est le préfixe qui sera ajouté devant le nom de chaque table utilisée par Habari dans la base de données, rendant ainsi plus facile la distinction de ces tables par rapport à celles utilisées par d'autres installations."
 
 #: installer/db_setup.php:156
 msgid "Check Database Connection"
@@ -4274,8 +4176,7 @@ msgstr ""
 #: installer/db_setup.php:185
 msgid ""
 "<strong>Username</strong> is the username of the initial user in Habari."
-msgstr ""
-"<strong>Identifiant</strong> est le nom du premier utilisateur dans Habari."
+msgstr "<strong>Identifiant</strong> est le nom du premier utilisateur dans Habari."
 
 #: installer/db_setup.php:192
 msgid "Password (again)"
@@ -4285,9 +4186,7 @@ msgstr "Mot de passe (confirmation)"
 msgid ""
 "<strong>Password</strong> is the password of the initial user in Habari. "
 "Both password fields must match."
-msgstr ""
-"<strong>Mot de passe</strong>sera le mot de passe de l'utilisateur initial "
-"dans Habari. Les deux champs doivent correspondre pour valider."
+msgstr "<strong>Mot de passe</strong>sera le mot de passe de l'utilisateur initial dans Habari. Les deux champs doivent correspondre pour valider."
 
 #: installer/db_setup.php:202
 msgid "Admin Email"
@@ -4296,9 +4195,7 @@ msgstr "Courriel de l'administrateur"
 #: installer/db_setup.php:207
 msgid ""
 "<strong>Admin Email</strong> is the email address of the first user account."
-msgstr ""
-"<strong>Courriel de l'administrateur</strong> est l'adresse courriel "
-"associée au premier compte utilisateur."
+msgstr "<strong>Courriel de l'administrateur</strong> est l'adresse courriel associée au premier compte utilisateur."
 
 #: installer/db_setup.php:219
 msgid "Theme Selection"
@@ -4311,10 +4208,9 @@ msgstr "Activation d'extensions"
 #: installer/db_setup.php:255 admin/plugin.php:18
 #, php-format
 msgid ""
-"The plugin file %s is a legacy plugin, and does not include an XML info file."
-msgstr ""
-"Le fichier d'extension %s est basé sur un ancien modèle et n'inclut pas de "
-"fichier d'information XML."
+"The plugin file %s is a legacy plugin, and does not include an XML info "
+"file."
+msgstr "Le fichier d'extension %s est basé sur un ancien modèle et n'inclut pas de fichier d'information XML."
 
 #: installer/db_setup.php:289 installer/htaccess.php:25
 #: installer/config.php:31 installer/sqlite.php:25
@@ -4325,9 +4221,7 @@ msgstr "Installer"
 msgid ""
 "Habari now has all of the information needed to install itself on your "
 "server."
-msgstr ""
-"Habari possède à présent toutes les informations nécessaires à son "
-"installation sur votre serveur."
+msgstr "Habari possède à présent toutes les informations nécessaires à son installation sur votre serveur."
 
 #: installer/db_setup.php:293
 msgid "The selected theme and plugins require additional features:"
@@ -4345,10 +4239,7 @@ msgstr "aide"
 msgid ""
 "Your <strong>.htaccess</strong> file is not writable. In order to "
 "successfully install Habari, please paste the following into"
-msgstr ""
-"Votre fichier <strong>.htaccess</strong> n'est pas accessible en écriture. "
-"Afin d'installer Habari correctement, veuillez le créer etcoller ce qui suit "
-"dans le fichier"
+msgstr "Votre fichier <strong>.htaccess</strong> n'est pas accessible en écriture. Afin d'installer Habari correctement, veuillez le créer etcoller ce qui suit dans le fichier"
 
 #: installer/htaccess.php:14
 msgid ""
@@ -4356,20 +4247,13 @@ msgid ""
 "send requests to Habari for handling. Habari is not able to write this file "
 "to your server automatically, so you must create this file yourself to "
 "continue the installation."
-msgstr ""
-"<strong>.htaccess</strong> est un fichier contenant les instructions "
-"nécessaires au serveur Apache pour renvoyer les requêtes à Habari pour être "
-"traitées. Habari n'est pas en mesure d'ajouter automatiquement ce fichier au "
-"serveur. Vous devrez donc le créer manuellement pour poursuivre "
-"l'installation."
+msgstr "<strong>.htaccess</strong> est un fichier contenant les instructions nécessaires au serveur Apache pour renvoyer les requêtes à Habari pour être traitées. Habari n'est pas en mesure d'ajouter automatiquement ce fichier au serveur. Vous devrez donc le créer manuellement pour poursuivre l'installation."
 
 #: installer/htaccess.php:28 installer/sqlite.php:28
 msgid ""
 "When you have successfully placed the .htaccess file, run the installer "
 "again."
-msgstr ""
-"Après avoir mis en place le fichier .htaccess, merci de relancer "
-"l'installation."
+msgstr "Après avoir mis en place le fichier .htaccess, merci de relancer l'installation."
 
 #: installer/htaccess.php:29 installer/config.php:35 installer/sqlite.php:29
 msgid "Restart Installer"
@@ -4379,9 +4263,7 @@ msgstr "Relancer l'installation"
 msgid ""
 "Your <strong>config.php</strong> file is not writable. In order to "
 "successfully install Habari, please paste the following into"
-msgstr ""
-"Votre fichier <strong>config.php</strong> ne peut être modifié. Afin "
-"d'installer Habari correctement, veuillez y copier ce qui suit:"
+msgstr "Votre fichier <strong>config.php</strong> ne peut être modifié. Afin d'installer Habari correctement, veuillez y copier ce qui suit:"
 
 #: installer/config.php:20
 msgid ""
@@ -4389,19 +4271,12 @@ msgid ""
 "your database. Habari is not able to write this file to your server "
 "automatically, so you must create this file yourself to continute the "
 "installation."
-msgstr ""
-"<strong>config.php</strong> est un fichier fournissant les informations "
-"nécessaires à Habari pour se connecter à votre base de données.  Habari "
-"n'est pas en mesure d'ajouter automatiquement ce fichier à votre serveur.  "
-"Vous devrez donc ajouter manuellement ce fichier pour poursuivre "
-"l'installation."
+msgstr "<strong>config.php</strong> est un fichier fournissant les informations nécessaires à Habari pour se connecter à votre base de données.  Habari n'est pas en mesure d'ajouter automatiquement ce fichier à votre serveur.  Vous devrez donc ajouter manuellement ce fichier pour poursuivre l'installation."
 
 #: installer/config.php:34
 msgid ""
 "When you have successfully placed the config file, run the installer again."
-msgstr ""
-"Une fois le fichier de configuration correctement placé, relancez le "
-"programme d'installation."
+msgstr "Une fois le fichier de configuration correctement placé, relancez le programme d'installation."
 
 #: installer/sqlite.php:11
 #, php-format
@@ -4417,13 +4292,7 @@ msgid ""
 "disallows access to it by readers on the web. Habari is not able to write "
 "this section in your .htaccess file automatically, so you must add this "
 "section yourself to gain the enhanced security it offers you."
-msgstr ""
-"Votre base de données SQLite est un fichier comme n'importe quel autre sur "
-"le serveur.  Vous pouvez en améliorer la sécurité en ajoutant une section "
-"dans votre fichier .htaccess qui en refusera l'accès direct aux lecteurs.  "
-"Habari n'est pas en mesure d'ajouter automatiquement cette section dans "
-"votre fichier .htaccess.  Vous devrez donc ajouter cette section "
-"manuellement pour bénéficier d'une meilleure sécurité."
+msgstr "Votre base de données SQLite est un fichier comme n'importe quel autre sur le serveur.  Vous pouvez en améliorer la sécurité en ajoutant une section dans votre fichier .htaccess qui en refusera l'accès direct aux lecteurs.  Habari n'est pas en mesure d'ajouter automatiquement cette section dans votre fichier .htaccess.  Vous devrez donc ajouter cette section manuellement pour bénéficier d'une meilleure sécurité."
 
 #: installer/requirements.php:5
 msgid "Before you install <em>Habari</em>&hellip;"
@@ -4439,29 +4308,18 @@ msgid ""
 "writable by php, so that the installation script can write your "
 "configuration information properly. The exact process depends on the web "
 "server and the ownership of the directory."
-msgstr ""
-"Avant de pouvoir procéder à l'installation, vous devez d'abord attribuer les "
-"permissions d'écriture au répertoire d'installation par le serveur.  Le "
-"processus d'installation pourra ensuite y inscrire vos configurations "
-"correctement.  La méthode exacte varie selon le serveur et les droits sur le "
-"répertoire."
+msgstr "Avant de pouvoir procéder à l'installation, vous devez d'abord attribuer les permissions d'écriture au répertoire d'installation par le serveur.  Le processus d'installation pourra ensuite y inscrire vos configurations correctement.  La méthode exacte varie selon le serveur et les droits sur le répertoire."
 
 #: installer/requirements.php:14
 msgid ""
 "If your web server is part of the group which owns the directory, you'll "
-"need to add group write permissions to the directory. The procedure for this "
-"is as follows:"
-msgstr ""
-"Si votre serveur fait partie du groupe propriétaire du répertoire, vous "
-"devrez attribuer la permission en écriture au groupe.  La procédure "
-"s'effectue comme suit:"
+"need to add group write permissions to the directory. The procedure for this"
+" is as follows:"
+msgstr "Si votre serveur fait partie du groupe propriétaire du répertoire, vous devrez attribuer la permission en écriture au groupe.  La procédure s'effectue comme suit:"
 
 #: installer/requirements.php:18
-msgid ""
-"Open a terminal window, and then change to the installation directory:"
-msgstr ""
-"Ouvrez une fenêtre de terminal puis rendez-vous dans le répertoire "
-"d'installation"
+msgid "Open a terminal window, and then change to the installation directory:"
+msgstr "Ouvrez une fenêtre de terminal puis rendez-vous dans le répertoire d'installation"
 
 #: installer/requirements.php:22
 msgid "Change the <em>mode</em> (permissions) of the current directory:"
@@ -4471,28 +4329,20 @@ msgstr "Changer le <em>mode</em> (permissions) du répertoire courant:"
 msgid ""
 "<em>Note</em>: You may need to use <strong>sudo</strong> and enter an "
 "administrator password if you do not own the directory."
-msgstr ""
-"<em>Note</em>: Il est possible que vous ayez à utiliser "
-"<strong>sudo</strong> et entrer un mot de passe administrateur si vous "
-"n'êtes pas propriétaire du dossier."
+msgstr "<em>Note</em>: Il est possible que vous ayez à utiliser <strong>sudo</strong> et entrer un mot de passe administrateur si vous n'êtes pas propriétaire du dossier."
 
 #: installer/requirements.php:31
 msgid ""
 "If the web server is not part of the group which owns the directory, you "
 "will need to <strong>temporarily</strong> grant world write permissions to "
 "the directory:"
-msgstr ""
-"Si votre serveur ne fait pas partie du groupe propriétaire du répertoire, "
-"vous devrez attribuer <strong>temporairement</strong> au répertoire  la "
-"permission en écriture pour tous:"
+msgstr "Si votre serveur ne fait pas partie du groupe propriétaire du répertoire, vous devrez attribuer <strong>temporairement</strong> au répertoire  la permission en écriture pour tous:"
 
 #: installer/requirements.php:40
 msgid ""
 "Be sure to remove the write permissions on the directory as soon as the "
 "installation is completed."
-msgstr ""
-"Assurez-vous de retirer les droits d'écriture de ce dossier dès que "
-"l'installation sera complétée."
+msgstr "Assurez-vous de retirer les droits d'écriture de ce dossier dès que l'installation sera complétée."
 
 #: installer/requirements.php:48
 msgid "PHP Upgrade needed&hellip;"
@@ -4515,8 +4365,7 @@ msgstr "requiert que les extensions PHP suivantes soient installées:"
 msgid ""
 "Please contact your web hosting provider if you do not have access to your "
 "server."
-msgstr ""
-"Veuillez contacter votre hébergeur si vous n'avez pas accès à votre serveur."
+msgstr "Veuillez contacter votre hébergeur si vous n'avez pas accès à votre serveur."
 
 #: installer/requirements.php:70
 msgid "requires PHP's PCRE extension to have Unicode support enabled."
@@ -4528,13 +4377,10 @@ msgstr "Aucun pilote PDO n'est activé"
 
 #: installer/requirements.php:77
 msgid ""
-"requires that at least one <a href=\"http://www.php.net/pdo\">PDO driver</a> "
-"be installed. Please ask your hosting provider to enable one of the PDO "
+"requires that at least one <a href=\"http://www.php.net/pdo\">PDO driver</a>"
+" be installed. Please ask your hosting provider to enable one of the PDO "
 "drivers supported by Habari."
-msgstr ""
-"nécessite qu'au moins un <a href=\"http://www.php.net/pdo\">pilote PDO</a> "
-"soit installé. Veuillez demander à votre hébergeur d'activer l'un des "
-"pilotes PDO supportés par Habari."
+msgstr "nécessite qu'au moins un <a href=\"http://www.php.net/pdo\">pilote PDO</a> soit installé. Veuillez demander à votre hébergeur d'activer l'un des pilotes PDO supportés par Habari."
 
 #: installer/requirements.php:81
 msgid "mod_rewrite not enabled"
@@ -4548,14 +4394,7 @@ msgid ""
 "other software) to handle URLs dynamically. You need a <code>LoadModule "
 "rewrite_module</code> line in your <code>httpd.conf</code>. Please ask your "
 "systems administrator or hosting provider to enable mod_rewrite."
-msgstr ""
-"Vous avez Apache, mais mod_rewrite n'est pas activé.  "
-"<strong>mod_rewrite</strong> est un module permettant à Habari (et autres "
-"applications) de gérer les URL de façon dynamique.  Pour utiliser Habari, "
-"vous devez activer mod_rewrite dans la configuration du serveur en ajoutant "
-"une ligne <code>LoadModule rewrite_module</code> dans votre fichier "
-"<code>httpd.conf</code>.  Veuillez vérifier auprès de votre hébergeur afin "
-"d'activer mod_rewrite."
+msgstr "Vous avez Apache, mais mod_rewrite n'est pas activé.  <strong>mod_rewrite</strong> est un module permettant à Habari (et autres applications) de gérer les URL de façon dynamique.  Pour utiliser Habari, vous devez activer mod_rewrite dans la configuration du serveur en ajoutant une ligne <code>LoadModule rewrite_module</code> dans votre fichier <code>httpd.conf</code>.  Veuillez vérifier auprès de votre hébergeur afin d'activer mod_rewrite."
 
 #: installer/header.php:28
 msgid "Read the user manual"
@@ -4643,10 +4482,7 @@ msgid ""
 "<a href=\"%1$s\">Comment</a> by <a href=\"%2$s\" title=\"Visit "
 "%3$s\">%3$s</a> posted on <a href=\"%4$s\" title=\"View post\">%5$s</a> at "
 "<strong>%6$s</strong> on <strong>%7$s</strong>"
-msgstr ""
-"<a href=\"%1$s\">Commentaire</a> par <a href=\"%2$s\" title=\"Voir "
-"%3$s\">%3$s</a> posté le <a href=\"%4$s\" title=\"Afficher le "
-"billet\">%5$s</a> à <strong>%6$s</strong> sur <strong>%7$s</strong>"
+msgstr "<a href=\"%1$s\">Commentaire</a> par <a href=\"%2$s\" title=\"Voir %3$s\">%3$s</a> posté le <a href=\"%4$s\" title=\"Afficher le billet\">%5$s</a> à <strong>%6$s</strong> sur <strong>%7$s</strong>"
 
 #: admin/comment.overview.php:20
 #, php-format
@@ -4775,16 +4611,12 @@ msgstr "Plugins en conflit"
 
 #: admin/import.php:21
 msgid "You do not currently have any import plugins installed."
-msgstr ""
-"Vous n'avez actuellement aucune extension d'importation qui soit installée."
+msgstr "Vous n'avez actuellement aucune extension d'importation qui soit installée."
 
 #: admin/import.php:22
 #, php-format
-msgid ""
-"Please <a href=\"%1$s\">activate an import plugin</a> to enable importing."
-msgstr ""
-"Veuillez <a href=\"%1$s\">activer une extension d'importation</a> pour avoir "
-"accès à cette fonction."
+msgid "Please <a href=\"%1$s\">activate an import plugin</a> to enable importing."
+msgstr "Veuillez <a href=\"%1$s\">activer une extension d'importation</a> pour avoir accès à cette fonction."
 
 #: admin/import.php:27
 msgid "Please choose the type of import to perform:"
@@ -4834,34 +4666,23 @@ msgstr "Il n'y a aucune inscription aux journaux actuellement."
 msgid ""
 "Oh, great! You're using IE6! I've finally found someone I can pawn this old "
 "betamax player off on!"
-msgstr ""
-"Oh, génial! Vous utilisez IE6! J'ai finalement trouver quelqu'un à qui je "
-"peut emprunter un lecteur Betamax !"
+msgstr "Oh, génial! Vous utilisez IE6! J'ai finalement trouver quelqu'un à qui je peut emprunter un lecteur Betamax !"
 
 #: admin/dashboard.php:11
 #, php-format
 msgid ""
 "If you're reading this you're surfing using Internet Explorer 6, a browser "
 "that is %d %s old and cannot cope with the demands of the modern internet."
-msgstr ""
-"Si vous lisez ceci, cela veut dire que vous utiliser Internet Explorer 6, un "
-"navigateur de %d%s d'âge et incapable de gérer les évolutions d'un internet "
-"moderne."
+msgstr "Si vous lisez ceci, cela veut dire que vous utiliser Internet Explorer 6, un navigateur de %d%s d'âge et incapable de gérer les évolutions d'un internet moderne."
 
 #: admin/dashboard.php:12
 msgid ""
-"Consider switching to <a href=\"http://mozilla.com\">Mozilla Firefox</a>, <a "
-"href=\"http://www.apple.com/safari/download/\">Safari</a>, <a "
+"Consider switching to <a href=\"http://mozilla.com\">Mozilla Firefox</a>, <a"
+" href=\"http://www.apple.com/safari/download/\">Safari</a>, <a "
 "href=\"http://www.google.com/chrome\">Google Chrome</a>, or a more recent "
 "version of <a href=\"http://www.microsoft.com/windows/Internet-"
 "explorer/default.aspx\">Internet Explorer</a>."
-msgstr ""
-"Vous pouvez changer pour <a href=\"http://www.mozilla-"
-"europe.org/fr/\">Mozilla Firefox</a>, <a "
-"href=\"http://www.apple.com/safari/download/\">Safari</a>, <a "
-"href=\"http://www.google.com/chrome\">Google Chrome</a> ou une version plus "
-"récente de <a href=\"http://windows.microsoft.com/fr-FR/internet-"
-"explorer/products/ie/home\">Internet Explorer</a>."
+msgstr "Vous pouvez changer pour <a href=\"http://www.mozilla-europe.org/fr/\">Mozilla Firefox</a>, <a href=\"http://www.apple.com/safari/download/\">Safari</a>, <a href=\"http://www.google.com/chrome\">Google Chrome</a> ou une version plus récente de <a href=\"http://windows.microsoft.com/fr-FR/internet-explorer/products/ie/home\">Internet Explorer</a>."
 
 #: admin/dashboard.php:20
 #, php-format
@@ -4945,8 +4766,7 @@ msgstr ""
 
 #: admin/dashboard.php:160
 #, php-format
-msgid ""
-"%1$s <a href=\"%2$s\">%3$s</a> has the following updates available: %4$s"
+msgid "%1$s <a href=\"%2$s\">%3$s</a> has the following updates available: %4$s"
 msgstr ""
 
 #: admin/dashboard.php:180
@@ -4956,12 +4776,7 @@ msgid ""
 "we encourage you to read the [manual], which is bundled with every Habari "
 "install. This link also appears at the bottom of every page in the admin "
 "area."
-msgstr ""
-"Bienvenue dans l'univers Habari!  Lancez-vous dès maintenant et commencez à "
-"l'explorer. Si vous vous retrouvez coincé ou souhaitez en apprendre "
-"davantage sur certaines fonctionnalités avancées, nous vous encourageons à "
-"lire le [manuel] livré avec chaque installation d'Habari. Ce lien apparaît "
-"également au bas de chaque page de la section administration."
+msgstr "Bienvenue dans l'univers Habari!  Lancez-vous dès maintenant et commencez à l'explorer. Si vous vous retrouvez coincé ou souhaitez en apprendre davantage sur certaines fonctionnalités avancées, nous vous encourageons à lire le [manuel] livré avec chaque installation d'Habari. Ce lien apparaît également au bas de chaque page de la section administration."
 
 #: admin/dashboard.php:181
 msgid "Habari Manual"
@@ -5017,8 +4832,7 @@ msgstr "refuser"
 #: admin/plugin.php:6
 #, php-format
 msgid "The plugin file %s had syntax errors and could not load."
-msgstr ""
-"Le fichier %s présente des erreurs de syntaxe et ne peut être chargé."
+msgstr "Le fichier %s présente des erreurs de syntaxe et ne peut être chargé."
 
 #: admin/plugin.php:9
 msgid "Show Error"
@@ -5028,29 +4842,28 @@ msgstr "Afficher l'Erreur"
 #, php-format
 msgid ""
 "The XML file for the plugin %s contained errors and could not be loaded."
-msgstr ""
-"Le fichier XML du plugin %s contient des erreurs et n'a pu être chargé."
+msgstr "Le fichier XML du plugin %s contient des erreurs et n'a pu être chargé."
 
-#: admin/plugin.php:57
+#: admin/plugin.php:58
 msgid "v1.1 Update Available Now"
 msgstr "La Mise à jour v1.1 est disponible maintenant"
 
-#: admin/plugin.php:71
+#: admin/plugin.php:72
 #, php-format
 msgid "This plugin requires the %1$s feature and cannot be activated."
 msgstr ""
 
-#: admin/plugin.php:81
+#: admin/plugin.php:82
 #, php-format
 msgid "%1$s will be activated to provide %2$s."
 msgstr "%1$s sera activé pour fournir %2$s."
 
-#: admin/plugin.php:86
+#: admin/plugin.php:87
 #, php-format
 msgid "One of these plugins must be activated to provide %s:"
 msgstr ""
 
-#: admin/plugin.php:119
+#: admin/plugin.php:120
 msgid "Close"
 msgstr "Fermer"
 
@@ -5229,8 +5042,7 @@ msgstr "Gérer les messages étiquetés %1$s"
 
 #: admin/tag_collection.php:18
 msgid "No tags could be found to match the query criteria."
-msgstr ""
-"Pas de tags pourraient être trouvés pour répondre aux critères de la requête."
+msgstr "Pas de tags pourraient être trouvés pour répondre aux critères de la requête."
 
 #: admin/comments_items.php:17
 msgid "in"
@@ -5270,45 +5082,45 @@ msgstr "Aucun commentaire ne correspond à la recherche."
 msgid "Current Theme"
 msgstr "Thème actuel"
 
-#: admin/themes.php:37
+#: admin/themes.php:38
 msgid "v"
 msgstr "v"
 
-#: admin/themes.php:37
+#: admin/themes.php:38
 msgid "Update Available"
 msgstr "Mise à jour disponible"
 
-#: admin/themes.php:48 admin/themes.php:133
+#: admin/themes.php:49 admin/themes.php:135
 #, php-format
 msgid "%1$s is licensed under the %2$s"
 msgstr "%1$s est sous license %2$s"
 
-#: admin/themes.php:71
+#: admin/themes.php:72
 msgid "General"
 msgstr "Général"
 
-#: admin/themes.php:79
+#: admin/themes.php:80
 msgid "Areas"
 msgstr "Zones"
 
-#: admin/themes.php:111
+#: admin/themes.php:112
 msgid "Available Themes"
 msgstr "Thèmes disponibles"
 
-#: admin/themes.php:139
+#: admin/themes.php:141
 msgid "Legacy theme."
 msgstr "Thème historique."
 
-#: admin/themes.php:141
+#: admin/themes.php:143
 #, php-format
 msgid "This theme requires the parent theme named \"%s\"."
 msgstr ""
 
-#: admin/themes.php:145
+#: admin/themes.php:147
 msgid "End Preview"
 msgstr "Fin de l'aperçu"
 
-#: admin/themes.php:147
+#: admin/themes.php:149
 msgid "Preview"
 msgstr "Aperçu"
 
@@ -5437,231 +5249,4 @@ msgstr ""
 msgid ""
 "You did not save the changes you made. \\nLeaving this page will result in "
 "the lose of data."
-msgstr ""
-"Vous n'avez pas enregistré vos modifications. \\nLes informations entrées "
-"seront perdues en quittant cette page."
-
-#~ msgid " is powered by"
-#~ msgstr " est propulsé par"
-
-#~ msgid "There are currently no comments."
-#~ msgstr "Il n'y a pas de commentaire."
-
-#, php-format
-#~ msgid "Posted at %1$s"
-#~ msgstr "Publié le %1$s"
-
-#~ msgid " posts"
-#~ msgstr " billets"
-
-#~ msgid " post"
-#~ msgstr " billet"
-
-#~ msgid "0-0 of 0"
-#~ msgstr "0-0 de 0"
-
-#~ msgid "Type and wait to search any log entry component"
-#~ msgstr ""
-#~ "Tapez et attendez pour rechercher n'importe quel élément des entrées du log"
-
-#~ msgid "0 of 0"
-#~ msgstr "0 de 0"
-
-#~ msgid "You have logged in to Viddler."
-#~ msgstr "Vous êtes connectés sur Viddler."
-
-#~ msgid "The username and password you supplied failed to log in to Viddler."
-#~ msgstr ""
-#~ "L'identifiant et le mot de passe que vous avez fourni n'ouvre pas de session "
-#~ "sur Viddler."
-
-#, php-format
-#~ msgid ""
-#~ "Your <b>.htaccess</b> file is not writable. In order to secure your SQLite "
-#~ "database, please paste the following into <b>%s</b>:"
-#~ msgstr ""
-#~ "Votre fichier <b>.htaccess</b> n'est pas accessible en écriture. Afin de "
-#~ "sécuriser votre base de données SQLite, veuillez copier les lignes suivantes "
-#~ "dans <b>%s</b>:"
-
-#, php-format
-#~ msgid "Unkown attribute type \"%s\" in %s"
-#~ msgstr "Type d'attribut inconnu \"%s\" dans %s"
-
-#~ msgid "System Status"
-#~ msgstr "Etat du système"
-
-#~ msgid "Caffeine"
-#~ msgstr "Caféine"
-
-#, php-format
-#~ msgid "by %s"
-#~ msgstr "par %s"
-
-#~ msgid "Sign in"
-#~ msgstr "S'enregistrer"
-
-#~ msgid "The requested post was not found."
-#~ msgstr "Le billet demandé n'a pas été trouvé."
-
-#~ msgid "Page:"
-#~ msgstr "Page:"
-
-#~ msgid "Error!"
-#~ msgstr "Erreur!"
-
-#~ msgid "Leave a Reply"
-#~ msgstr "Répondre"
-
-#~ msgid "Something went terribly wrong here."
-#~ msgstr "Une erreur horrible est survenue."
-
-#~ msgid "Time of this Comment"
-#~ msgstr "Heure de ce commentaire"
-
-#~ msgid "Responses to"
-#~ msgstr "Réponses pour"
-
-#~ msgid "Add Item"
-#~ msgstr "Ajouter un élément"
-
-#~ msgid "SYSTEM INFORMATION\n"
-#~ msgstr "INFORMATION SUR LE SYSTEME\n"
-
-#~ msgid ""
-#~ "\n"
-#~ "SITE INFORMATION\n"
-#~ msgstr ""
-#~ "\n"
-#~ "INFORMATION SUR LE SITE\n"
-
-#~ msgid "None found\n"
-#~ msgstr "Aucun résultat\n"
-
-#, php-format
-#~ msgid "requires PHP 5.2 or newer. Your current PHP version is %s."
-#~ msgstr "nécessite PHP 5.2 ou supérieur. La version courante de PHP est %s."
-
-#~ msgid ""
-#~ "\n"
-#~ "PLUGIN INFORMATION"
-#~ msgstr ""
-#~ "\n"
-#~ "INFORMATION D'EXTENSION"
-
-#~ msgid ""
-#~ "\n"
-#~ "USER CLASSES\n"
-#~ msgstr ""
-#~ "\n"
-#~ "CLASSES UTILISATEURS\n"
-
-#, php-format
-#~ msgid "Comment Moderated on %s"
-#~ msgstr "Commentaire modéré dans %s"
-
-#, php-format
-#~ msgid "No results found for your search '%1$s'"
-#~ msgstr "Aucun résultat trouvé pour votre recherche '%1$s'"
-
-#, php-format
-#~ msgid "You can try searching for '%2$s'"
-#~ msgstr "Vous pouvez tenter une recherche pour '%2$s'"
-
-#~ msgid "Posts Tagged with"
-#~ msgstr "Billets avec mots-clés"
-
-#~ msgid ""
-#~ "<strong>Site Name</strong> is the name of your site as it will appear\n"
-#~ "\t\t\t\tto your visitors."
-#~ msgstr ""
-#~ "<strong>Nom du site</strong> est le nom de votre site tel qu'il apparaîtra\n"
-#~ "\t\t\t\tà vos visiteurs."
-
-#~ msgid "Edit Your Profile"
-#~ msgstr "Modifier votre Profil"
-
-#~ msgid "Site Language"
-#~ msgstr "Langue du site"
-
-#, php-format
-#~ msgid "Search results for %s"
-#~ msgstr "Résultats de recherche pour \"%s\""
-
-#~ msgid "You did not have permission to delete some entries."
-#~ msgstr "Vous n'avez pas la permission de supprimer ces entrées"
-
-#~ msgid "(will not be published)"
-#~ msgstr "(ne sera pas publié)"
-
-#~ msgid "The Web Site field value must be a valid URL"
-#~ msgstr "Le champ Site Internet requiert une adresse URL valide"
-
-#~ msgid "and a huge amount of "
-#~ msgstr "et une quantité énorme de "
-
-#~ msgid "The Content field value is required"
-#~ msgstr "Une valeur est requise au champ Contenu"
-
-#~ msgid "File added successfully."
-#~ msgstr "Fichier ajouté avec succès."
-
-#~ msgid "File could not be added to the silo."
-#~ msgstr "Le fichier n'a pu être ajouté au dépôt."
-
-#~ msgid "File Uploaded: "
-#~ msgstr "Fichier envoyé: "
-
-#~ msgid ""
-#~ "requires PHP's PCRE extension to have Unicode support enabled. Please "
-#~ "contact your web hosting provider if you do not have access to your server."
-#~ msgstr ""
-#~ "requiert que le support Unicode soit activé dans extension PCRE de PHP.  "
-#~ "Veuillez contacter votre hébergeur si vous n'avez pas accès au serveur."
-
-#~ msgid ""
-#~ "This plugin cannot be activated because the following features were not "
-#~ "present:"
-#~ msgstr ""
-#~ "Cette extension ne peut être activée parce que les fonctionnalités suivantes "
-#~ "ne sont pas présentes:"
-
-#, php-format
-#~ msgid "%d page"
-#~ msgid_plural "%d pages"
-#~ msgstr[0] "%d page"
-#~ msgstr[1] "%d pages"
-
-#, php-format
-#~ msgid "%d entry"
-#~ msgid_plural "%d entries"
-#~ msgstr[0] "%d entrée"
-#~ msgstr[1] "%d entrées"
-
-#, php-format
-#~ msgid "%d entry draft"
-#~ msgid_plural "%d entry drafts"
-#~ msgstr[0] "%d ébauche"
-#~ msgstr[1] "%d ébauches"
-
-#, php-format
-#~ msgid "%d page draft"
-#~ msgid_plural "%d page drafts"
-#~ msgstr[0] "%d ébauche de page"
-#~ msgstr[1] "%d ébauches de pages"
-
-#, php-format
-#~ msgid "%d spam comment awaiting moderation"
-#~ msgid_plural "%d spam comments awaiting moderation"
-#~ msgstr[0] "%d pourriel en attente de modération"
-#~ msgstr[1] "%d pourriels en attente de modération"
-
-#~ msgid "File deleted successfully."
-#~ msgstr "Fichié supprimé avec succès."
-
-#~ msgid "Failed to delete file."
-#~ msgstr "Échec de la suppression du fichier."
-
-#, php-format
-#~ msgid "%d Pingabcks"
-#~ msgstr "%d pings reçus"
+msgstr "Vous n'avez pas enregistré vos modifications. \\nLes informations entrées seront perdues en quittant cette page."
